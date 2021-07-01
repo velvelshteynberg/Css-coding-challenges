@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodyDiv {
+    box-sizing: border-box;
+    border: 1px red solid;
+    display: flex;
+    flex-direction: coluumn;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.vehicleDiv {
+    border: 1px black solid;
+    height: 75vh;
+    flex-basis: 20%;
+}
+
+.sedans {
+    background-color: orange;
+}
+
+.suv {
+    background-color: #add8e6;
+}
+
+.luxury {
+    background-color: #006A6A;
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    color: #18414e;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.icon {
+    height: 45px;
+    width: 65px;
+}
+
+.innerContentDiv {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 35px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.title {
+    position: relative;
+    text-transform: uppercase;
+    bottom: 30px;
+    color: white;
+    font-size: 32px;
+}
+
+.info {
+    position: relative;
+    text-transform: capitalize;
+    bottom: 35px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
