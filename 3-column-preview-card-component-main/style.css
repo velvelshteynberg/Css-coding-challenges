@@ -15,7 +15,6 @@
 }
 
 .vehicleDiv {
-    border: 1px black solid;
     height: 75vh;
     flex-basis: 20%;
 }

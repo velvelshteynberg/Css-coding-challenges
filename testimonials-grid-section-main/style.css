@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: white;
+}
+.bodyDiv {
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    height: 100%;
+}
+
+.review1 {
+    flex-basis: 59.6666666666%;
+    background-color: #545aa7;
+    position: relative;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 30px;
+    height: 250px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.blankDiv {
+    flex-basis: 7%;
+    background-color: white;
+}
+
+.halfBlankDiv {
+    flex-basis: 3.5%;
+    background-color: white;
+}
+
+.dividingLineDiv {
+    height: 15px;
+    flex-basis: 100%;
+}
+
+.review2 {
+    flex-basis: 29.8333333333%;
+    background-color: #a96bf1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.review3 {
+    flex-basis: 29.8333333333333%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.review4 {
+    flex-basis: 59.66666666666666%;
+    background-color: #3b0b73;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.pics {
+    border: 2px white solid;
+    border-radius: 50%;
+    position: relative; 
+    top: 5px;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.name {
+    position: relative;
+    top: -45px;
+    left: 80px;
+    font-size: 14px;
+    color: white;
+}
+
+.qualification {
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    left: 80px;
+    color: white;
+}
+
+.reviewContent {
+    font-size: 16px;
+    position: relative;
+    top: -40px;
+}
+
+.quote {
+    font-size: 12px;
+    position: relative;
+    top: -30px;
+}
+
+.fontcolor {
+    color: black;
+}
+
+.rightSide {
+    flex-basis: 25%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.review5 {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+
