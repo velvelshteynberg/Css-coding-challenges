@@ -10,18 +10,19 @@
 }
 
 .bodyDiv {
-    width: 100%;
-    height: 100%;
+    box-sizing: border-box;
+    height: 100vh;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto  ;
-    grid-template-rows:   180px   180px   180px ;
+    width: 100%;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows:  1fr 1fr 1fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
 }
 
 .item1 {
     box-sizing: border-box;
-    grid-column: 1 /span 4;
+    grid-column: 1/ span 4;
     grid-row: 1/ span 2;
     background-size: cover;
     position: relative;
@@ -63,6 +64,8 @@
     grid-column: 5/ span 3;
     grid-row: 1/ span 2;
     background-color: white;
+    height: 100%;
+    width: 100%;
     color: black;
     display: flex;
     justify-content:space-around;
@@ -85,6 +88,11 @@
     line-height: 1.5;
 }
 
+.miniDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around ;
+}
 .shop {
     font-size: 20px;
     letter-spacing: 5px;
@@ -92,6 +100,11 @@
     font-weight: 300;
 }
 
+.arrow {
+    margin-left: 10%;
+}
+
+.leftArrow 
 
 .item3 {
     box-sizing: border-box;
@@ -103,6 +116,17 @@
     box-sizing: border-box;
     grid-column: 3/ span 3;
     grid-row: 3;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    justify-content: space-around;
+}
+
+.item4innerDiv {
+    height: 20%;
+    width: 100%;
+    margin: auto;
 }
 
 .item5 {
